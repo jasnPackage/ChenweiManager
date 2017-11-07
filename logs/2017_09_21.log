@@ -1,0 +1,435 @@
+[2017-09-21 16:16:55,428-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:16:55,432-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:16:55,464-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '24', 'cooperationType': None, 'orgType': None, 'orgName': '卡子门站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '25', 'cooperationType': None, 'orgType': None, 'orgName': '光华门站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1046429', 'cooperationType': None, 'orgType': None, 'orgName': '东山站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:16:55,511-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 16:16:55,532-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:16:55,536-logger.py]-INFO:---pass---
+[2017-09-21 16:16:55,537-logger.py]-INFO:
+[2017-09-21 16:16:55,538-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 16:16:55,558-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:16:55,562-logger.py]-INFO:---pass---
+[2017-09-21 16:16:55,562-logger.py]-INFO:
+[2017-09-21 16:19:16,660-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:19:23,159-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:20:27,785-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1618962', 'cooperationType': None, 'orgType': None, 'orgName': '合肥', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1618963', 'cooperationType': None, 'orgType': None, 'orgName': '马鞍山', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354415', 'cooperationType': None, 'orgType': None, 'orgName': '芜湖', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354418', 'cooperationType': None, 'orgType': None, 'orgName': '宣城', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354421', 'cooperationType': None, 'orgType': None, 'orgName': '铜陵', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354426', 'cooperationType': None, 'orgType': None, 'orgName': '蚌埠', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354431', 'cooperationType': None, 'orgType': None, 'orgName': '淮南', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354440', 'cooperationType': None, 'orgType': None, 'orgName': '滁州', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354446', 'cooperationType': None, 'orgType': None, 'orgName': '阜阳', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354454', 'cooperationType': None, 'orgType': None, 'orgName': '淮北', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354462', 'cooperationType': None, 'orgType': None, 'orgName': '亳州', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354465', 'cooperationType': None, 'orgType': None, 'orgName': '宿州', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354481', 'cooperationType': None, 'orgType': None, 'orgName': '六安', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354486', 'cooperationType': None, 'orgType': None, 'orgName': '安庆', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354491', 'cooperationType': None, 'orgType': None, 'orgName': '池州', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '2354546', 'cooperationType': None, 'orgType': None, 'orgName': '黄山', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:24:31,045-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:24:31,049-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:24:31,082-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '12281634', 'cooperationType': None, 'orgType': None, 'orgName': '上海市公司', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '12281721', 'cooperationType': None, 'orgType': None, 'orgName': '浙江省公司', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '12281959', 'cooperationType': None, 'orgType': None, 'orgName': '山东省公司', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:25:06,402-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:25:06,406-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:25:06,436-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '7884490', 'cooperationType': None, 'orgType': None, 'orgName': '湖北', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:29:33,630-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:29:33,634-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:30:05,062-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:30:05,066-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:30:05,300-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '22', 'cooperationType': None, 'orgType': None, 'orgName': '米兰站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '23', 'cooperationType': None, 'orgType': None, 'orgName': '哈哈站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:30:05,315-logger.py]-INFO:---pass---
+[2017-09-21 16:30:05,317-logger.py]-INFO:
+[2017-09-21 16:38:04,382-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:38:04,386-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:38:04,416-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '7884490', 'cooperationType': None, 'orgType': None, 'orgName': '湖北', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:38:04,426-logger.py]-INFO:---pass---
+[2017-09-21 16:38:04,427-logger.py]-INFO:
+[2017-09-21 16:39:27,299-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 16:39:27,303-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 16:39:27,332-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '4214120', 'cooperationType': None, 'orgType': None, 'orgName': '济南市', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:39:27,342-logger.py]-INFO:---pass---
+[2017-09-21 16:39:27,343-logger.py]-INFO:
+[2017-09-21 16:39:27,345-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 16:39:27,365-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:39:27,375-logger.py]-INFO:---pass---
+[2017-09-21 16:39:27,376-logger.py]-INFO:
+[2017-09-21 16:39:27,377-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 16:39:27,396-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 16:39:27,399-logger.py]-INFO:---pass---
+[2017-09-21 16:39:27,400-logger.py]-INFO:
+[2017-09-21 17:34:17,433-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:34:17,437-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 17:34:17,468-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 17:35:06,267-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:35:12,612-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 17:35:47,751-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 17:40:29,232-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:40:29,243-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 17:40:29,286-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 17:41:16,390-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:41:16,400-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 17:41:16,440-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 17:41:54,486-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:41:54,497-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 17:41:54,536-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 17:55:28,466-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:55:28,470-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 17:55:28,502-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 17:55:28,514-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 17:55:28,531-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 17:55:52,309-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:55:52,313-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 17:55:52,326-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 17:56:06,325-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:56:06,328-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 17:56:06,341-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 17:57:23,671-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:57:32,239-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 17:57:49,616-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 17:59:58,093-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 17:59:58,097-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 17:59:58,109-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:35:25,640-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:35:25,644-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:35:25,850-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:35:34,729-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:35:34,732-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:35:34,744-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:35:45,519-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:35:45,523-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:35:45,553-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:35:45,563-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:35:45,582-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:35:45,592-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:35:45,602-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:36:21,593-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:36:21,597-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:36:21,653-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:36:25,963-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:36:25,967-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:36:25,997-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:36:26,008-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:36:26,026-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:36:26,037-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:36:26,047-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:37:04,517-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:37:04,520-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:37:04,753-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:37:04,778-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:37:04,799-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:37:04,813-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:37:04,824-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:37:04,833-logger.py]-INFO:---4.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 18:37:04,841-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:39:51,436-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:39:51,440-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:39:51,469-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:39:51,480-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:39:51,499-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:39:51,509-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:39:51,519-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:39:51,528-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:39:51,538-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:39:51,588-logger.py]-INFO:---4.siteId传入为空：start!---
+[2017-09-21 18:39:51,599-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:39:51,607-logger.py]-INFO:---4.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 18:39:51,617-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:41:01,842-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:41:01,846-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:41:01,860-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:41:14,982-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:41:22,947-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:41:36,384-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:42:41,169-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:42:41,173-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:42:41,387-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:47:12,865-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 18:47:12,892-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:47:12,907-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-21 18:47:12,924-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:47:12,952-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3504942', 'cooperationType': None, 'orgType': None, 'orgName': '广东', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:47:12,963-logger.py]-INFO:---pass---
+[2017-09-21 18:47:12,964-logger.py]-INFO:
+[2017-09-21 18:47:12,964-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 18:47:12,982-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:47:12,992-logger.py]-INFO:---pass---
+[2017-09-21 18:47:12,993-logger.py]-INFO:
+[2017-09-21 18:47:12,994-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 18:47:13,011-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:47:13,015-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,015-logger.py]-INFO:
+[2017-09-21 18:47:13,016-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:47:13,243-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:47:13,268-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,270-logger.py]-INFO:
+[2017-09-21 18:47:13,272-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:47:13,298-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:47:13,324-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,326-logger.py]-INFO:
+[2017-09-21 18:47:13,328-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:47:13,344-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:47:13,365-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,367-logger.py]-INFO:
+[2017-09-21 18:47:13,369-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:47:13,385-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:47:13,406-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,408-logger.py]-INFO:
+[2017-09-21 18:47:13,409-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-21 18:47:13,421-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:47:13,434-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,435-logger.py]-INFO:
+[2017-09-21 18:47:13,436-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 18:47:13,448-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:47:13,460-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,461-logger.py]-INFO:
+[2017-09-21 18:47:13,462-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:47:13,483-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '22', 'cooperationType': None, 'orgType': None, 'orgName': '米兰站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:47:13,490-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,491-logger.py]-INFO:
+[2017-09-21 18:47:13,492-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-21 18:47:13,511-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:47:13,515-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,516-logger.py]-INFO:
+[2017-09-21 18:47:13,517-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-21 18:47:13,529-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:47:13,533-logger.py]-INFO:---pass---
+[2017-09-21 18:47:13,534-logger.py]-INFO:
+[2017-09-21 18:49:32,830-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 18:49:32,835-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:49:32,840-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-21 18:49:32,842-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:49:32,867-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3504942', 'cooperationType': None, 'orgType': None, 'orgName': '广东', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:49:32,877-logger.py]-INFO:---pass---
+[2017-09-21 18:49:32,878-logger.py]-INFO:
+[2017-09-21 18:49:32,879-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 18:49:32,900-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:49:32,912-logger.py]-INFO:---pass---
+[2017-09-21 18:49:32,914-logger.py]-INFO:
+[2017-09-21 18:49:32,915-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 18:49:32,936-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:49:32,941-logger.py]-INFO:---pass---
+[2017-09-21 18:49:32,942-logger.py]-INFO:
+[2017-09-21 18:49:32,944-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:49:32,972-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:49:32,986-logger.py]-INFO:---pass---
+[2017-09-21 18:49:32,987-logger.py]-INFO:
+[2017-09-21 18:49:32,988-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:49:33,009-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:49:33,023-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,024-logger.py]-INFO:
+[2017-09-21 18:49:33,025-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:49:33,037-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:49:33,048-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,048-logger.py]-INFO:
+[2017-09-21 18:49:33,049-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:49:33,061-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:49:33,072-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,073-logger.py]-INFO:
+[2017-09-21 18:49:33,073-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-21 18:49:33,085-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:49:33,092-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,093-logger.py]-INFO:
+[2017-09-21 18:49:33,093-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 18:49:33,103-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:49:33,110-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,110-logger.py]-INFO:
+[2017-09-21 18:49:33,111-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:49:33,128-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '22', 'cooperationType': None, 'orgType': None, 'orgName': '米兰站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:49:33,134-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,135-logger.py]-INFO:
+[2017-09-21 18:49:33,135-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-21 18:49:33,152-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:49:33,156-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,157-logger.py]-INFO:
+[2017-09-21 18:49:33,158-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-21 18:49:33,169-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:49:33,173-logger.py]-INFO:---pass---
+[2017-09-21 18:49:33,174-logger.py]-INFO:
+[2017-09-21 18:50:32,212-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 18:50:32,227-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:50:32,241-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-21 18:50:32,243-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:50:32,268-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '10310101', 'cooperationType': None, 'orgType': None, 'orgName': '东城区', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '10310102', 'cooperationType': None, 'orgType': None, 'orgName': '西城区', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:50:32,278-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,280-logger.py]-INFO:
+[2017-09-21 18:50:32,282-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 18:50:32,307-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:50:32,321-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,322-logger.py]-INFO:
+[2017-09-21 18:50:32,324-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 18:50:32,349-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:50:32,355-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,357-logger.py]-INFO:
+[2017-09-21 18:50:32,360-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:50:32,391-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:50:32,407-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,408-logger.py]-INFO:
+[2017-09-21 18:50:32,409-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:50:32,429-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:50:32,444-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,445-logger.py]-INFO:
+[2017-09-21 18:50:32,446-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:50:32,464-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:50:32,476-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,477-logger.py]-INFO:
+[2017-09-21 18:50:32,478-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:50:32,490-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:50:32,502-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,503-logger.py]-INFO:
+[2017-09-21 18:50:32,504-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-21 18:50:32,515-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:50:32,527-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,528-logger.py]-INFO:
+[2017-09-21 18:50:32,529-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 18:50:32,541-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:50:32,553-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,554-logger.py]-INFO:
+[2017-09-21 18:50:32,555-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:50:32,577-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '22', 'cooperationType': None, 'orgType': None, 'orgName': '米兰站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:50:32,583-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,584-logger.py]-INFO:
+[2017-09-21 18:50:32,585-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-21 18:50:32,604-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:50:32,608-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,609-logger.py]-INFO:
+[2017-09-21 18:50:32,610-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-21 18:50:32,621-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:50:32,625-logger.py]-INFO:---pass---
+[2017-09-21 18:50:32,626-logger.py]-INFO:
+[2017-09-21 18:57:21,606-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 18:57:21,618-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 18:57:21,630-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-21 18:57:21,632-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:57:21,657-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '4214120', 'cooperationType': None, 'orgType': None, 'orgName': '济南市', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:57:21,667-logger.py]-INFO:---pass---
+[2017-09-21 18:57:21,668-logger.py]-INFO:
+[2017-09-21 18:57:21,669-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 18:57:21,686-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:57:21,697-logger.py]-INFO:---pass---
+[2017-09-21 18:57:21,698-logger.py]-INFO:
+[2017-09-21 18:57:21,699-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 18:57:21,718-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:57:21,722-logger.py]-INFO:---pass---
+[2017-09-21 18:57:21,722-logger.py]-INFO:
+[2017-09-21 18:57:21,723-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:57:21,748-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:57:21,758-logger.py]-INFO:---pass---
+[2017-09-21 18:57:21,758-logger.py]-INFO:
+[2017-09-21 18:57:21,759-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 18:57:21,776-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:57:21,786-logger.py]-INFO:---pass---
+[2017-09-21 18:57:21,786-logger.py]-INFO:
+[2017-09-21 18:57:21,787-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 18:57:21,998-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:57:22,018-logger.py]-INFO:---pass---
+[2017-09-21 18:57:22,020-logger.py]-INFO:
+[2017-09-21 18:57:22,021-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 18:57:22,034-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:57:22,048-logger.py]-INFO:---pass---
+[2017-09-21 18:57:22,049-logger.py]-INFO:
+[2017-09-21 18:57:22,050-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-21 18:57:22,263-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:57:22,284-logger.py]-INFO:---pass---
+[2017-09-21 18:57:22,285-logger.py]-INFO:
+[2017-09-21 18:57:22,288-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 18:57:22,300-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:57:22,310-logger.py]-INFO:---pass---
+[2017-09-21 18:57:22,310-logger.py]-INFO:
+[2017-09-21 18:57:22,311-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 18:57:22,332-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '22', 'cooperationType': None, 'orgType': None, 'orgName': '米兰站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:57:22,338-logger.py]-INFO:---pass---
+[2017-09-21 18:57:22,338-logger.py]-INFO:
+[2017-09-21 18:57:22,339-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-21 18:57:22,357-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 18:57:22,361-logger.py]-INFO:---pass---
+[2017-09-21 18:57:22,362-logger.py]-INFO:
+[2017-09-21 18:57:22,362-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-21 18:57:22,372-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 18:57:22,376-logger.py]-INFO:---pass---
+[2017-09-21 18:57:22,376-logger.py]-INFO:
+[2017-09-21 19:01:45,037-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 19:01:45,049-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 19:01:45,052-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-21 19:01:45,053-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 19:01:45,080-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '26', 'cooperationType': None, 'orgType': None, 'orgName': 'xxx', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:01:45,092-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,093-logger.py]-INFO:
+[2017-09-21 19:01:45,094-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 19:01:45,116-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:01:45,128-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,129-logger.py]-INFO:
+[2017-09-21 19:01:45,129-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 19:01:45,148-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:01:45,152-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,153-logger.py]-INFO:
+[2017-09-21 19:01:45,153-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 19:01:45,180-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:01:45,191-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,191-logger.py]-INFO:
+[2017-09-21 19:01:45,192-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 19:01:45,210-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:01:45,220-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,221-logger.py]-INFO:
+[2017-09-21 19:01:45,221-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 19:01:45,231-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:01:45,239-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,239-logger.py]-INFO:
+[2017-09-21 19:01:45,240-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 19:01:45,250-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:01:45,257-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,258-logger.py]-INFO:
+[2017-09-21 19:01:45,258-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-21 19:01:45,269-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:01:45,275-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,276-logger.py]-INFO:
+[2017-09-21 19:01:45,276-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 19:01:45,301-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:01:45,308-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,309-logger.py]-INFO:
+[2017-09-21 19:01:45,309-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 19:01:45,328-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '22', 'cooperationType': None, 'orgType': None, 'orgName': '米兰站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:01:45,333-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,334-logger.py]-INFO:
+[2017-09-21 19:01:45,334-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-21 19:01:45,353-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:01:45,356-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,357-logger.py]-INFO:
+[2017-09-21 19:01:45,358-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-21 19:01:45,367-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:01:45,371-logger.py]-INFO:---pass---
+[2017-09-21 19:01:45,371-logger.py]-INFO:
+[2017-09-21 19:04:27,819-logger.py]-INFO:---站点列表接口测试---
+[2017-09-21 19:04:27,826-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-21 19:04:27,838-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-21 19:04:27,840-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 19:04:27,885-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840646', 'cooperationType': None, 'orgType': None, 'orgName': '江苏村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840716', 'cooperationType': None, 'orgType': None, 'orgName': '安徽村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840778', 'cooperationType': None, 'orgType': None, 'orgName': '江西村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840846', 'cooperationType': None, 'orgType': None, 'orgName': '浙江村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '147953681', 'cooperationType': None, 'orgType': None, 'orgName': '四川村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:04:27,895-logger.py]-INFO:---pass---
+[2017-09-21 19:04:27,896-logger.py]-INFO:
+[2017-09-21 19:04:27,896-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-21 19:04:27,914-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:04:27,924-logger.py]-INFO:---pass---
+[2017-09-21 19:04:27,925-logger.py]-INFO:
+[2017-09-21 19:04:27,925-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-21 19:04:27,943-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:04:27,948-logger.py]-INFO:---pass---
+[2017-09-21 19:04:27,948-logger.py]-INFO:
+[2017-09-21 19:04:27,949-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 19:04:27,975-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 156, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 10, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.8, 'status': 1, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:04:27,982-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-21 19:04:28,205-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:04:28,230-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,232-logger.py]-INFO:
+[2017-09-21 19:04:28,234-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-21 19:04:28,251-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:04:28,272-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,274-logger.py]-INFO:
+[2017-09-21 19:04:28,276-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-21 19:04:28,292-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:04:28,306-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,307-logger.py]-INFO:
+[2017-09-21 19:04:28,308-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-21 19:04:28,320-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:04:28,334-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,335-logger.py]-INFO:
+[2017-09-21 19:04:28,336-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-21 19:04:28,348-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:04:28,358-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,359-logger.py]-INFO:
+[2017-09-21 19:04:28,359-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-21 19:04:28,379-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '22', 'cooperationType': None, 'orgType': None, 'orgName': '米兰站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:04:28,385-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,386-logger.py]-INFO:
+[2017-09-21 19:04:28,386-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-21 19:04:28,404-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-21 19:04:28,407-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,408-logger.py]-INFO:
+[2017-09-21 19:04:28,409-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-21 19:04:28,447-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-21 19:04:28,452-logger.py]-INFO:---pass---
+[2017-09-21 19:04:28,453-logger.py]-INFO:

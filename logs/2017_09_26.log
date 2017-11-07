@@ -1,0 +1,398 @@
+[2017-09-26 09:49:45,218-logger.py]-INFO:---站点运力修改接口测试---
+[2017-09-26 09:49:45,270-logger.py]-INFO:---站点列表接口测试---
+[2017-09-26 09:49:45,292-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-26 09:49:45,321-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 09:49:45,331-logger.py]-INFO:---1.修改一条记录：start!---
+[2017-09-26 09:49:45,421-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 09:49:45,739-logger.py]-INFO:---pass---
+[2017-09-26 09:49:45,740-logger.py]-INFO:
+[2017-09-26 09:49:45,742-logger.py]-INFO:---2.批量修改多条记录：start!---
+[2017-09-26 09:49:45,822-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 09:49:46,126-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,127-logger.py]-INFO:
+[2017-09-26 09:49:46,128-logger.py]-INFO:---3.datas传入为空：start!---
+[2017-09-26 09:49:46,196-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 09:49:46,288-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,289-logger.py]-INFO:
+[2017-09-26 09:49:46,290-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 09:49:46,319-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '932823', 'cooperationType': None, 'orgType': None, 'orgName': '北京', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3401850', 'cooperationType': None, 'orgType': None, 'orgName': '天津', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3456988', 'cooperationType': None, 'orgType': None, 'orgName': '河北', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:49:46,330-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,331-logger.py]-INFO:
+[2017-09-26 09:49:46,347-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-26 09:49:46,371-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:49:46,383-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,384-logger.py]-INFO:
+[2017-09-26 09:49:46,384-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-26 09:49:46,403-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:49:46,407-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,407-logger.py]-INFO:
+[2017-09-26 09:49:46,408-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 09:49:46,462-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 143, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 23, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.15, 'status': 2, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:49:46,471-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,472-logger.py]-INFO:
+[2017-09-26 09:49:46,473-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 09:49:46,495-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:49:46,504-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,505-logger.py]-INFO:
+[2017-09-26 09:49:46,506-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 09:49:46,529-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:49:46,536-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,537-logger.py]-INFO:
+[2017-09-26 09:49:46,538-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 09:49:46,548-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:49:46,556-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,556-logger.py]-INFO:
+[2017-09-26 09:49:46,557-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 09:49:46,568-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:49:46,575-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,575-logger.py]-INFO:
+[2017-09-26 09:49:46,576-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 09:49:46,587-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:49:46,597-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,598-logger.py]-INFO:
+[2017-09-26 09:49:46,599-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 09:49:46,638-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:49:46,649-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-26 09:49:46,700-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:49:46,704-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,705-logger.py]-INFO:
+[2017-09-26 09:49:46,706-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-26 09:49:46,919-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:49:46,923-logger.py]-INFO:---pass---
+[2017-09-26 09:49:46,924-logger.py]-INFO:
+[2017-09-26 09:54:01,619-logger.py]-INFO:---站点运力修改接口测试---
+[2017-09-26 09:54:01,623-logger.py]-INFO:---站点列表接口测试---
+[2017-09-26 09:54:01,627-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-26 09:54:01,642-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 09:54:01,645-logger.py]-INFO:---1.修改一条记录：start!---
+[2017-09-26 09:54:01,729-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 09:54:02,180-logger.py]-INFO:---pass---
+[2017-09-26 09:54:02,181-logger.py]-INFO:
+[2017-09-26 09:54:02,182-logger.py]-INFO:---2.批量修改多条记录：start!---
+[2017-09-26 09:54:02,260-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 09:54:02,845-logger.py]-INFO:---pass---
+[2017-09-26 09:54:02,856-logger.py]-INFO:
+[2017-09-26 09:54:02,857-logger.py]-INFO:---3.datas传入为空：start!---
+[2017-09-26 09:54:02,933-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 09:54:03,276-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,276-logger.py]-INFO:
+[2017-09-26 09:54:03,277-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 09:54:03,315-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '932823', 'cooperationType': None, 'orgType': None, 'orgName': '北京', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3401850', 'cooperationType': None, 'orgType': None, 'orgName': '天津', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3456988', 'cooperationType': None, 'orgType': None, 'orgName': '河北', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:54:03,328-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,329-logger.py]-INFO:
+[2017-09-26 09:54:03,330-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-26 09:54:03,356-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:54:03,368-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,369-logger.py]-INFO:
+[2017-09-26 09:54:03,370-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-26 09:54:03,395-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:54:03,400-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,401-logger.py]-INFO:
+[2017-09-26 09:54:03,403-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 09:54:03,640-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 143, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 23, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.15, 'status': 2, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:54:03,664-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,665-logger.py]-INFO:
+[2017-09-26 09:54:03,666-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 09:54:03,694-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 09:54:03,721-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,722-logger.py]-INFO:
+[2017-09-26 09:54:03,723-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 09:54:03,738-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:54:03,758-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,760-logger.py]-INFO:
+[2017-09-26 09:54:03,761-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 09:54:03,779-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:54:03,801-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,802-logger.py]-INFO:
+[2017-09-26 09:54:03,804-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 09:54:03,820-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:54:03,841-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,842-logger.py]-INFO:
+[2017-09-26 09:54:03,843-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 09:54:03,861-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 09:54:03,881-logger.py]-INFO:---pass---
+[2017-09-26 09:54:03,882-logger.py]-INFO:
+[2017-09-26 09:54:19,405-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 09:54:28,471-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 09:55:49,576-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 10:56:34,023-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 10:56:34,023-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 10:56:34,070-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3457065', 'cooperationType': None, 'orgType': None, 'orgName': '沧州站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 10:56:34,506-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-26 10:56:34,537-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 10:56:34,915-logger.py]-INFO:---pass---
+[2017-09-26 10:56:34,915-logger.py]-INFO:
+[2017-09-26 10:56:34,915-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-26 10:56:34,930-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 10:56:35,289-logger.py]-INFO:---pass---
+[2017-09-26 10:56:35,289-logger.py]-INFO:
+[2017-09-26 10:58:22,285-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 10:58:26,508-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 10:58:41,726-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3457065', 'cooperationType': None, 'orgType': None, 'orgName': '沧州站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:03:37,698-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 11:03:37,698-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:03:37,744-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3457065', 'cooperationType': None, 'orgType': None, 'orgName': '沧州站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:03:38,157-logger.py]-INFO:---pass---
+[2017-09-26 11:03:38,157-logger.py]-INFO:
+[2017-09-26 11:03:38,157-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-26 11:03:38,188-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:03:38,626-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-26 11:03:38,845-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:03:39,222-logger.py]-INFO:---pass---
+[2017-09-26 11:03:39,222-logger.py]-INFO:
+[2017-09-26 11:04:42,928-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 11:04:42,928-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:04:42,993-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3457065', 'cooperationType': None, 'orgType': None, 'orgName': '沧州站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:04:44,170-logger.py]-INFO:---pass---
+[2017-09-26 11:04:44,185-logger.py]-INFO:
+[2017-09-26 11:04:55,977-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-26 11:05:12,993-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:08:20,089-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 11:08:20,089-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:08:20,136-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3457065', 'cooperationType': None, 'orgType': None, 'orgName': '沧州站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:08:20,541-logger.py]-INFO:---pass---
+[2017-09-26 11:08:20,541-logger.py]-INFO:
+[2017-09-26 11:08:20,541-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-26 11:08:20,573-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:08:20,953-logger.py]-INFO:---pass---
+[2017-09-26 11:08:20,953-logger.py]-INFO:
+[2017-09-26 11:08:20,953-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-26 11:08:20,976-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:08:21,370-logger.py]-INFO:---pass---
+[2017-09-26 11:08:21,370-logger.py]-INFO:
+[2017-09-26 11:09:36,605-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 11:09:36,620-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:09:36,684-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3457065', 'cooperationType': None, 'orgType': None, 'orgName': '沧州站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:21:50,682-logger.py]-INFO:---站点运力列表导出接口测试---
+[2017-09-26 11:21:50,682-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:21:50,828-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 11:21:50,843-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:10 GMT'}
+[2017-09-26 11:21:50,858-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 11:21:50,874-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:10 GMT'}
+[2017-09-26 11:21:50,874-logger.py]-INFO:---pass---
+[2017-09-26 11:21:50,874-logger.py]-INFO:
+[2017-09-26 11:21:50,874-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 11:21:50,890-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:10 GMT'}
+[2017-09-26 11:21:50,890-logger.py]-INFO:---pass---
+[2017-09-26 11:21:50,905-logger.py]-INFO:
+[2017-09-26 11:21:50,905-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 11:21:50,905-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:10 GMT'}
+[2017-09-26 11:21:50,921-logger.py]-INFO:---pass---
+[2017-09-26 11:21:50,921-logger.py]-INFO:
+[2017-09-26 11:21:50,921-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 11:21:50,936-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:10 GMT'}
+[2017-09-26 11:21:50,936-logger.py]-INFO:---pass---
+[2017-09-26 11:21:50,936-logger.py]-INFO:
+[2017-09-26 11:22:07,661-logger.py]-INFO:---站点运力列表导出接口测试---
+[2017-09-26 11:22:07,661-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:22:07,788-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 11:22:07,820-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:27 GMT'}
+[2017-09-26 11:22:07,820-logger.py]-INFO:---pass---
+[2017-09-26 11:22:07,820-logger.py]-INFO:
+[2017-09-26 11:22:07,820-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 11:22:08,040-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:27 GMT'}
+[2017-09-26 11:22:08,040-logger.py]-INFO:---pass---
+[2017-09-26 11:22:08,056-logger.py]-INFO:
+[2017-09-26 11:22:08,056-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 11:22:08,073-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:27 GMT'}
+[2017-09-26 11:22:08,073-logger.py]-INFO:---pass---
+[2017-09-26 11:22:08,073-logger.py]-INFO:
+[2017-09-26 11:22:08,088-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 11:22:08,088-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:27 GMT'}
+[2017-09-26 11:22:08,104-logger.py]-INFO:---pass---
+[2017-09-26 11:22:08,104-logger.py]-INFO:
+[2017-09-26 11:22:08,104-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 11:22:08,119-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:15:27 GMT'}
+[2017-09-26 11:22:08,119-logger.py]-INFO:---pass---
+[2017-09-26 11:22:08,119-logger.py]-INFO:
+[2017-09-26 11:28:00,786-logger.py]-INFO:---站点运力列表导出接口测试---
+[2017-09-26 11:28:04,915-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:28:56,945-logger.py]-INFO:---站点运力列表导出接口测试---
+[2017-09-26 11:29:02,110-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:33:18,126-logger.py]-INFO:---站点运力列表导出接口测试---
+[2017-09-26 11:33:18,130-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:33:18,158-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Content-Disposition': 'attachment;filename=%E7%AB%99%E7%82%B9%E8%BF%90%E5%8A%9B%E5%88%97%E8%A1%A8_20170926112638.xls', 'Content-Length': '5120', 'Date': 'Tue, 26 Sep 2017 03:26:38 GMT'}
+[2017-09-26 11:33:18,165-logger.py]-INFO:---pass---
+[2017-09-26 11:33:18,165-logger.py]-INFO:
+[2017-09-26 11:33:18,167-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 11:33:18,186-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:26:38 GMT'}
+[2017-09-26 11:33:18,193-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '未查询到数据', 'code': '0026'}
+[2017-09-26 11:33:18,196-logger.py]-INFO:---pass---
+[2017-09-26 11:33:18,197-logger.py]-INFO:
+[2017-09-26 11:33:18,199-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 11:33:18,209-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:26:38 GMT'}
+[2017-09-26 11:33:18,216-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:33:18,216-logger.py]-INFO:---pass---
+[2017-09-26 11:33:18,217-logger.py]-INFO:
+[2017-09-26 11:33:18,218-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 11:33:18,228-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:26:38 GMT'}
+[2017-09-26 11:33:18,235-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:33:18,236-logger.py]-INFO:---pass---
+[2017-09-26 11:33:18,237-logger.py]-INFO:
+[2017-09-26 11:33:18,238-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 11:33:18,248-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:26:38 GMT'}
+[2017-09-26 11:33:18,255-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:33:18,255-logger.py]-INFO:---pass---
+[2017-09-26 11:33:18,256-logger.py]-INFO:
+[2017-09-26 11:33:18,258-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 11:33:18,269-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:26:38 GMT'}
+[2017-09-26 11:33:18,276-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:33:18,277-logger.py]-INFO:---pass---
+[2017-09-26 11:33:18,277-logger.py]-INFO:
+[2017-09-26 11:34:25,989-logger.py]-INFO:---站点运力修改接口测试---
+[2017-09-26 11:34:26,005-logger.py]-INFO:---站点列表接口测试---
+[2017-09-26 11:34:26,036-logger.py]-INFO:---站点运力列表导出接口测试---
+[2017-09-26 11:34:26,052-logger.py]-INFO:---站点运力列表接口测试---
+[2017-09-26 11:34:26,068-logger.py]-INFO:---站长站点信息接口测试---
+[2017-09-26 11:34:26,084-logger.py]-INFO:---1.修改一条记录：start!---
+[2017-09-26 11:34:26,131-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 11:34:26,320-logger.py]-INFO:---pass---
+[2017-09-26 11:34:26,335-logger.py]-INFO:
+[2017-09-26 11:34:26,335-logger.py]-INFO:---2.批量修改多条记录：start!---
+[2017-09-26 11:34:26,399-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 11:34:26,756-logger.py]-INFO:---pass---
+[2017-09-26 11:34:26,756-logger.py]-INFO:
+[2017-09-26 11:34:26,756-logger.py]-INFO:---3.datas传入为空：start!---
+[2017-09-26 11:34:26,804-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-09-26 11:34:26,899-logger.py]-INFO:---pass---
+[2017-09-26 11:34:26,899-logger.py]-INFO:
+[2017-09-26 11:34:26,899-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:34:26,930-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840646', 'cooperationType': None, 'orgType': None, 'orgName': '江苏村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840716', 'cooperationType': None, 'orgType': None, 'orgName': '安徽村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840778', 'cooperationType': None, 'orgType': None, 'orgName': '江西村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '17840846', 'cooperationType': None, 'orgType': None, 'orgName': '浙江村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '147953681', 'cooperationType': None, 'orgType': None, 'orgName': '四川村淘', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:34:26,946-logger.py]-INFO:---pass---
+[2017-09-26 11:34:26,946-logger.py]-INFO:
+[2017-09-26 11:34:26,946-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-09-26 11:34:26,964-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:34:26,976-logger.py]-INFO:---pass---
+[2017-09-26 11:34:26,977-logger.py]-INFO:
+[2017-09-26 11:34:26,978-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-09-26 11:34:26,987-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:34:26,987-logger.py]-INFO:---pass---
+[2017-09-26 11:34:26,987-logger.py]-INFO:
+[2017-09-26 11:34:26,987-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:34:27,018-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Content-Disposition': 'attachment;filename=%E7%AB%99%E7%82%B9%E8%BF%90%E5%8A%9B%E5%88%97%E8%A1%A8_20170926112747.xls', 'Content-Length': '5120', 'Date': 'Tue, 26 Sep 2017 03:27:46 GMT'}
+[2017-09-26 11:34:27,034-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,034-logger.py]-INFO:
+[2017-09-26 11:34:27,034-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 11:34:27,050-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:27:46 GMT'}
+[2017-09-26 11:34:27,065-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '未查询到数据', 'code': '0026'}
+[2017-09-26 11:34:27,065-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,065-logger.py]-INFO:
+[2017-09-26 11:34:27,065-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 11:34:27,081-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:27:46 GMT'}
+[2017-09-26 11:34:27,081-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,081-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,081-logger.py]-INFO:
+[2017-09-26 11:34:27,081-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 11:34:27,096-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:27:46 GMT'}
+[2017-09-26 11:34:27,096-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,112-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,112-logger.py]-INFO:
+[2017-09-26 11:34:27,112-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 11:34:27,112-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:27:46 GMT'}
+[2017-09-26 11:34:27,128-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,128-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,128-logger.py]-INFO:
+[2017-09-26 11:34:27,128-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 11:34:27,128-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:27:47 GMT'}
+[2017-09-26 11:34:27,143-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,143-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,143-logger.py]-INFO:
+[2017-09-26 11:34:27,143-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:34:27,174-logger.py]-INFO:---站点运力列表接口响应：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 1, 'siteDate': '2017-08-31', 'orderEfficiencyNum': 143, 'orderTotalNum': 1000, 'orderCommonNum': 810, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 23, 'tempOrderNum': 110, 'tempDeliveryNum': 2, 'workerNum': 20, 'siteEfficiency': 7.15, 'status': 2, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '22', 'siteName': '米兰站', 'siteDetailId': 2, 'siteDate': '2017-08-30', 'orderEfficiencyNum': 801, 'orderTotalNum': 1001, 'orderCommonNum': 811, 'dxOrderNumOriginal': 100, 'dxOrderNumAdjust': 80, 'batchOrderNum': 120, 'tempOrderNum': 110, 'tempDeliveryNum': 1, 'workerNum': 20, 'siteEfficiency': 36.37, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:34:27,174-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,174-logger.py]-INFO:
+[2017-09-26 11:34:27,174-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 11:34:27,206-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:34:27,206-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,206-logger.py]-INFO:
+[2017-09-26 11:34:27,206-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 11:34:27,221-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,237-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,237-logger.py]-INFO:
+[2017-09-26 11:34:27,237-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 11:34:27,237-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,252-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,252-logger.py]-INFO:
+[2017-09-26 11:34:27,252-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 11:34:27,268-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,268-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,268-logger.py]-INFO:
+[2017-09-26 11:34:27,268-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 11:34:27,285-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:27,300-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,300-logger.py]-INFO:
+[2017-09-26 11:34:27,300-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:34:27,347-logger.py]-INFO:---站长站点信息接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '3457065', 'cooperationType': None, 'orgType': None, 'orgName': '沧州站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:34:27,736-logger.py]-INFO:---pass---
+[2017-09-26 11:34:27,736-logger.py]-INFO:
+[2017-09-26 11:34:27,736-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-09-26 11:34:27,784-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 11:34:28,112-logger.py]-INFO:---pass---
+[2017-09-26 11:34:28,112-logger.py]-INFO:
+[2017-09-26 11:34:28,112-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-09-26 11:34:28,128-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:34:28,505-logger.py]-INFO:---pass---
+[2017-09-26 11:34:28,505-logger.py]-INFO:
+[2017-09-26 11:36:00,913-logger.py]-INFO:---站点运力列表导出接口测试---
+[2017-09-26 11:36:00,913-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 11:36:00,944-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Content-Disposition': 'attachment;filename=%E7%AB%99%E7%82%B9%E8%BF%90%E5%8A%9B%E5%88%97%E8%A1%A8_20170926112921.xls', 'Content-Length': '5120', 'Date': 'Tue, 26 Sep 2017 03:29:21 GMT'}
+[2017-09-26 11:36:00,944-logger.py]-INFO:---pass---
+[2017-09-26 11:36:00,944-logger.py]-INFO:
+[2017-09-26 11:36:00,944-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-09-26 11:36:00,975-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:29:21 GMT'}
+[2017-09-26 11:36:00,983-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '未查询到数据', 'code': '0026'}
+[2017-09-26 11:36:00,986-logger.py]-INFO:---pass---
+[2017-09-26 11:36:00,987-logger.py]-INFO:
+[2017-09-26 11:36:00,987-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-09-26 11:36:00,987-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:29:21 GMT'}
+[2017-09-26 11:36:01,003-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:36:01,003-logger.py]-INFO:---pass---
+[2017-09-26 11:36:01,003-logger.py]-INFO:
+[2017-09-26 11:36:01,003-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-09-26 11:36:01,018-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:29:21 GMT'}
+[2017-09-26 11:36:01,018-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:36:01,018-logger.py]-INFO:---pass---
+[2017-09-26 11:36:01,018-logger.py]-INFO:
+[2017-09-26 11:36:01,018-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-09-26 11:36:01,034-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:29:21 GMT'}
+[2017-09-26 11:36:01,049-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:36:01,049-logger.py]-INFO:---pass---
+[2017-09-26 11:36:01,049-logger.py]-INFO:
+[2017-09-26 11:36:01,049-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-09-26 11:36:01,049-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 26 Sep 2017 03:29:21 GMT'}
+[2017-09-26 11:36:01,065-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 11:36:01,065-logger.py]-INFO:---pass---
+[2017-09-26 11:36:01,065-logger.py]-INFO:
+[2017-09-26 14:00:15,801-logger.py]-INFO:---获取站点运力数据接口测试---
+[2017-09-26 14:00:15,801-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 14:00:15,833-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '1046429', 'siteName': '东山站', 'siteDetailId': 10, 'siteDate': '2017-09-02', 'orderEfficiencyNum': 811, 'orderTotalNum': 891, 'orderCommonNum': 791, 'dxOrderNumOriginal': 51, 'dxOrderNumAdjust': 46, 'batchOrderNum': 0, 'tempOrderNum': 66, 'tempDeliveryNum': 5, 'workerNum': 18, 'siteEfficiency': 40.23, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 14:00:15,880-logger.py]-INFO:---2.siteDetailId传入不存在：start!---
+[2017-09-26 14:00:15,896-logger.py]-INFO:---获取站点运力数据接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 14:00:15,912-logger.py]-INFO:---3.siteDetailId传入为空：start!---
+[2017-09-26 14:00:15,928-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 14:00:15,928-logger.py]-INFO:---pass---
+[2017-09-26 14:00:15,928-logger.py]-INFO:
+[2017-09-26 14:00:42,661-logger.py]-INFO:---获取站点运力数据接口测试---
+[2017-09-26 14:00:42,661-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 14:00:42,692-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '1046429', 'siteName': '东山站', 'siteDetailId': 10, 'siteDate': '2017-09-02', 'orderEfficiencyNum': 811, 'orderTotalNum': 891, 'orderCommonNum': 791, 'dxOrderNumOriginal': 51, 'dxOrderNumAdjust': 46, 'batchOrderNum': 0, 'tempOrderNum': 66, 'tempDeliveryNum': 5, 'workerNum': 18, 'siteEfficiency': 40.23, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 14:00:42,739-logger.py]-INFO:---2.siteDetailId传入不存在：start!---
+[2017-09-26 14:00:42,770-logger.py]-INFO:---获取站点运力数据接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 14:00:42,770-logger.py]-INFO:---pass---
+[2017-09-26 14:00:42,770-logger.py]-INFO:
+[2017-09-26 14:00:42,770-logger.py]-INFO:---3.siteDetailId传入为空：start!---
+[2017-09-26 14:00:42,786-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 14:00:42,802-logger.py]-INFO:---pass---
+[2017-09-26 14:00:42,802-logger.py]-INFO:
+[2017-09-26 14:01:16,785-logger.py]-INFO:---获取站点运力数据接口测试---
+[2017-09-26 14:01:16,801-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-09-26 14:01:16,817-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '1046429', 'siteName': '东山站', 'siteDetailId': 10, 'siteDate': '2017-09-02', 'orderEfficiencyNum': 811, 'orderTotalNum': 891, 'orderCommonNum': 791, 'dxOrderNumOriginal': 51, 'dxOrderNumAdjust': 46, 'batchOrderNum': 0, 'tempOrderNum': 66, 'tempDeliveryNum': 5, 'workerNum': 18, 'siteEfficiency': 40.23, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 14:01:16,832-logger.py]-INFO:---pass---
+[2017-09-26 14:01:16,832-logger.py]-INFO:
+[2017-09-26 14:01:16,832-logger.py]-INFO:---2.siteDetailId传入不存在：start!---
+[2017-09-26 14:01:16,848-logger.py]-INFO:---获取站点运力数据接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-09-26 14:01:16,863-logger.py]-INFO:---pass---
+[2017-09-26 14:01:16,863-logger.py]-INFO:
+[2017-09-26 14:01:16,863-logger.py]-INFO:---3.siteDetailId传入为空：start!---
+[2017-09-26 14:01:16,863-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-09-26 14:01:16,879-logger.py]-INFO:---pass---
+[2017-09-26 14:01:16,879-logger.py]-INFO:

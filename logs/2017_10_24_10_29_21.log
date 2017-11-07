@@ -1,0 +1,9 @@
+[2017-10-24 10:29:21,105-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-24 10:29:21,114-logger.py]-INFO:编号：1，接口名称：站点运力总详情，测试点：{'data': [{'id': 33569, 'state': null, 'createTime': null, 'updateTime': null, 'createUid': null, 'updateUid': null, 'provinceId': null, 'provinceName': null, 'cityId': null, 'cityName': null, 'siteId': '107555619', 'siteName': '天通苑站', 'siteDate': '2017-09-18', 'workerNum': 10, 'siteEfficiency': 49.7, 'orderEfficiencyNum': 497, 'orderTotalNum': 497, 'orderCommonNum': 497, 'dxOrderNumOriginal': 0, 'dxOrderNumAdjust': 0, 'batchOrderNum': 0, 'tempOrderNum': 0, 'tempDeliveryNum': 0, 'status': 2}], 'msg': '接口正常', 'code': '0000'}，响应：{'data': {}, 'msg': '参数错误', 'code': '0002'}
+[2017-10-24 10:29:21,115-logger.py]-INFO:fail
+[2017-10-24 10:29:21,115-logger.py]-INFO:--------
+[2017-10-24 10:29:21,155-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-24 10:29:21,163-logger.py]-INFO:编号：2，接口名称：站点运力总详情，测试点：{'data': {}, 'msg': '参数错误', 'code': '0002'}，响应：{'data': {}, 'msg': '参数错误', 'code': '0002'}
+[2017-10-24 10:29:21,164-logger.py]-INFO:fail
+[2017-10-24 10:29:21,164-logger.py]-INFO:--------
+[2017-10-24 10:29:21,171-logger.py]-INFO:测试用例数：2  成功用例数：0  失败用例数：2

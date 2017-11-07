@@ -1,0 +1,49 @@
+[2017-10-13 16:19:59,301-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,364-logger.py]-INFO:编号：1，接口名称：站点运力修改，测试点：请求参数正确，响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-13 16:19:59,364-logger.py]-INFO:pass
+[2017-10-13 16:19:59,364-logger.py]-INFO:--------
+[2017-10-13 16:19:59,411-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,443-logger.py]-INFO:编号：2，接口名称：站点运力列表，测试点：请求参数正确，响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-13 16:19:59,443-logger.py]-INFO:pass
+[2017-10-13 16:19:59,443-logger.py]-INFO:--------
+[2017-10-13 16:19:59,474-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,490-logger.py]-INFO:编号：3，接口名称：站点运力列表，测试点：beginTime传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-13 16:19:59,490-logger.py]-INFO:pass
+[2017-10-13 16:19:59,490-logger.py]-INFO:--------
+[2017-10-13 16:19:59,536-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,536-logger.py]-INFO:编号：4，接口名称：站点运力列表，测试点：endTime传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-13 16:19:59,536-logger.py]-INFO:pass
+[2017-10-13 16:19:59,552-logger.py]-INFO:--------
+[2017-10-13 16:19:59,584-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,600-logger.py]-INFO:编号：5，接口名称：站点运力列表，测试点：siteId传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-13 16:19:59,600-logger.py]-INFO:pass
+[2017-10-13 16:19:59,600-logger.py]-INFO:--------
+[2017-10-13 16:19:59,647-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,662-logger.py]-INFO:编号：6，接口名称：站点运力总详情，测试点：请求参数正确，响应：{'data': {}, 'msg': '未查询到数据', 'code': '0026'}
+[2017-10-13 16:19:59,678-logger.py]-INFO:pass
+[2017-10-13 16:19:59,678-logger.py]-INFO:--------
+[2017-10-13 16:19:59,709-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,725-logger.py]-INFO:编号：7，接口名称：站点运力总详情，测试点：参数传入为空，响应：{'data': {}, 'msg': '参数错误', 'code': '0002'}
+[2017-10-13 16:19:59,725-logger.py]-INFO:pass
+[2017-10-13 16:19:59,725-logger.py]-INFO:--------
+[2017-10-13 16:19:59,771-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,803-logger.py]-INFO:编号：8，接口名称：站长站点信息，测试点：请求参数正确，响应：{'data': null, 'msg': '接口正常', 'code': '0000'}
+[2017-10-13 16:19:59,803-logger.py]-INFO:pass
+[2017-10-13 16:19:59,803-logger.py]-INFO:--------
+[2017-10-13 16:19:59,849-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,865-logger.py]-INFO:编号：9，接口名称：站长站点信息，测试点：userCode传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-13 16:19:59,865-logger.py]-INFO:pass
+[2017-10-13 16:19:59,865-logger.py]-INFO:--------
+[2017-10-13 16:19:59,912-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:19:59,943-logger.py]-INFO:编号：10，接口名称：获取站点运力数据，测试点：请求参数正确，响应：{'data': {'id': null, 'state': null, 'createTime': null, 'updateTime': null, 'createUid': null, 'updateUid': null, 'siteId': '336889', 'siteName': '黄浦站', 'siteDetailId': 2, 'siteDate': '2017-09-29', 'orderEfficiencyNum': 316, 'orderTotalNum': 326, 'orderCommonNum': 324, 'dxOrderNumOriginal': 0, 'dxOrderNumAdjust': 0, 'batchOrderNum': 10, 'tempOrderNum': 0, 'tempDeliveryNum': 0, 'workerNum': 6, 'siteEfficiency': 52.67, 'status': 1, 'startTime': null, 'endTime': null, 'statusStr': null, 'provinceId': null, 'cityId': null, 'keyWords': null, 'beginTime': null}, 'msg': '接口正常', 'code': '0000'}
+[2017-10-13 16:19:59,943-logger.py]-INFO:false
+[2017-10-13 16:19:59,943-logger.py]-INFO:--------
+[2017-10-13 16:19:59,990-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:20:00,005-logger.py]-INFO:编号：11，接口名称：获取站点运力数据，测试点：siteDetailId传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-13 16:20:00,005-logger.py]-INFO:pass
+[2017-10-13 16:20:00,005-logger.py]-INFO:--------
+[2017-10-13 16:20:00,037-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-13 16:20:00,271-logger.py]-INFO:编号：12，接口名称：获取站点运力数据，测试点：siteDetailId不存在，响应：{'data': null, 'msg': '接口正常', 'code': '0000'}
+[2017-10-13 16:20:00,271-logger.py]-INFO:pass
+[2017-10-13 16:20:00,271-logger.py]-INFO:--------
+[2017-10-13 16:20:00,271-logger.py]-INFO:总计13条用例

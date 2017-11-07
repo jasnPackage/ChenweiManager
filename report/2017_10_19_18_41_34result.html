@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>自动化测试报告,测试结果如下：</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>自动化测试报告,测试结果如下：</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-10-19 18:41:34</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:01.274073</p>
+<p class='attribute'><strong>状态:</strong> 通过 1</p>
+
+</div>
+<p class='description'>用例执行情况：</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='passClass'>
+    <td>zd_api_test.Api_test</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_api_data</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: [2017-10-19 18:41:34,058-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,226-logger.py]-INFO:编号：1，接口名称：站点运力修改，测试点：请求参数正确，响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-19 18:41:34,230-logger.py]-INFO:pass
+[2017-10-19 18:41:34,235-logger.py]-INFO:--------
+[2017-10-19 18:41:34,299-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,340-logger.py]-INFO:编号：2，接口名称：站点运力列表，测试点：请求参数正确，响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-19 18:41:34,347-logger.py]-INFO:pass
+[2017-10-19 18:41:34,354-logger.py]-INFO:--------
+[2017-10-19 18:41:34,426-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,445-logger.py]-INFO:编号：3，接口名称：站点运力列表，测试点：beginTime传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-19 18:41:34,452-logger.py]-INFO:pass
+[2017-10-19 18:41:34,458-logger.py]-INFO:--------
+[2017-10-19 18:41:34,518-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,528-logger.py]-INFO:编号：4，接口名称：站点运力列表，测试点：endTime传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-19 18:41:34,530-logger.py]-INFO:pass
+[2017-10-19 18:41:34,532-logger.py]-INFO:--------
+[2017-10-19 18:41:34,580-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,600-logger.py]-INFO:编号：5，接口名称：站点运力列表，测试点：siteId传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-19 18:41:34,607-logger.py]-INFO:pass
+[2017-10-19 18:41:34,611-logger.py]-INFO:--------
+[2017-10-19 18:41:34,676-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,719-logger.py]-INFO:编号：6，接口名称：站点运力总详情，测试点：请求参数正确，响应：{'data': [{'id': 8099, 'state': null, 'createTime': null, 'updateTime': null, 'createUid': null, 'updateUid': null, 'provinceId': null, 'provinceName': null, 'cityId': null, 'cityName': null, 'siteId': '107555619', 'siteName': '天通苑站', 'siteDate': '2017-09-18', 'workerNum': 10, 'siteEfficiency': 49.7, 'orderEfficiencyNum': 497, 'orderTotalNum': 497, 'orderCommonNum': 497, 'dxOrderNumOriginal': 0, 'dxOrderNumAdjust': 0, 'batchOrderNum': 0, 'tempOrderNum': 0, 'tempDeliveryNum': 0, 'status': 2}], 'msg': '接口正常', 'code': '0000'}
+[2017-10-19 18:41:34,724-logger.py]-INFO:pass
+[2017-10-19 18:41:34,729-logger.py]-INFO:--------
+[2017-10-19 18:41:34,785-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,798-logger.py]-INFO:编号：7，接口名称：站点运力总详情，测试点：请求参数传入为空，响应：{'data': {}, 'msg': '参数错误', 'code': '0002'}
+[2017-10-19 18:41:34,801-logger.py]-INFO:pass
+[2017-10-19 18:41:34,804-logger.py]-INFO:--------
+[2017-10-19 18:41:34,874-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:34,907-logger.py]-INFO:编号：8，接口名称：站长站点信息，测试点：请求参数正确，响应：{'data': null, 'msg': '接口正常', 'code': '0000'}
+[2017-10-19 18:41:34,913-logger.py]-INFO:pass
+[2017-10-19 18:41:34,919-logger.py]-INFO:--------
+[2017-10-19 18:41:34,998-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:35,009-logger.py]-INFO:编号：9，接口名称：站长站点信息，测试点：请求参数传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-19 18:41:35,011-logger.py]-INFO:pass
+[2017-10-19 18:41:35,013-logger.py]-INFO:--------
+[2017-10-19 18:41:35,071-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:35,110-logger.py]-INFO:编号：10，接口名称：获取站点运力数据，测试点：请求参数正确，响应：{'data': {'id': null, 'state': null, 'createTime': null, 'updateTime': null, 'createUid': null, 'updateUid': null, 'siteId': '336889', 'siteName': '黄浦站', 'siteDetailId': 2, 'siteDate': '2017-09-01', 'orderEfficiencyNum': 264, 'orderTotalNum': 274, 'orderCommonNum': 274, 'dxOrderNumOriginal': 0, 'dxOrderNumAdjust': 0, 'batchOrderNum': 10, 'tempOrderNum': 0, 'tempDeliveryNum': 0, 'workerNum': 8, 'siteEfficiency': 33.0, 'status': 1, 'startTime': null, 'endTime': null, 'statusStr': null, 'provinceId': null, 'cityId': null, 'keyWords': null, 'beginTime': null}, 'msg': '接口正常', 'code': '0000'}
+[2017-10-19 18:41:35,112-logger.py]-INFO:pass
+[2017-10-19 18:41:35,114-logger.py]-INFO:--------
+[2017-10-19 18:41:35,158-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:35,168-logger.py]-INFO:编号：11，接口名称：获取站点运力数据，测试点：siteDetailId传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-19 18:41:35,170-logger.py]-INFO:pass
+[2017-10-19 18:41:35,171-logger.py]-INFO:--------
+[2017-10-19 18:41:35,221-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-19 18:41:35,260-logger.py]-INFO:编号：12，接口名称：获取站点运力数据，测试点：siteDetailId不存在，响应：{'data': null, 'msg': '接口正常', 'code': '0000'}
+[2017-10-19 18:41:35,263-logger.py]-INFO:pass
+[2017-10-19 18:41:35,266-logger.py]-INFO:--------
+[2017-10-19 18:41:35,281-logger.py]-INFO:总计12条用例，执行通过12条用例，失败0条用例
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

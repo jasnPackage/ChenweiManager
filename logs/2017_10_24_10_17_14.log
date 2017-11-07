@@ -1,0 +1,5 @@
+[2017-10-24 10:17:14,132-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+[2017-10-24 10:17:14,179-logger.py]-INFO:编号：1，接口名称：站点运力修改，测试点：请求参数正确，响应：{'data': [{'id': 0, 'state': null, 'createTime': null, 'updateTime': null, 'createUid': null, 'updateUid': null, 'deliveryName': '6', 'errMsg': 'id为6数据不存在，请联系系统管理员'}], 'msg': '接口正常', 'code': '0000'}
+[2017-10-24 10:17:14,181-logger.py]-INFO:fail
+[2017-10-24 10:17:14,182-logger.py]-INFO:--------
+[2017-10-24 10:17:14,200-logger.py]-INFO:测试用例数：1  成功用例数：0  失败用例数：1

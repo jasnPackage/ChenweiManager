@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>自动化测试报告,测试结果如下：</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>自动化测试报告,测试结果如下：</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-10-10 15:36:23</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:02.839205</p>
+<p class='attribute'><strong>状态:</strong> 通过 23 错误 1</p>
+
+</div>
+<p class='description'>用例执行情况：</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_capsummary_update.Capsummary_update</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',3)">详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_update1: 测试站点运力修改接口：修改一条记录</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: [2017-10-10 15:36:23,016-logger.py]-INFO:---1.修改一条记录：start!---
+[2017-10-10 15:36:23,063-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:23,219-logger.py]-INFO:---pass---
+[2017-10-10 15:36:23,219-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_update2: 测试站点运力修改接口：批量修改多条记录</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: [2017-10-10 15:36:23,219-logger.py]-INFO:---2.批量修改多条记录：start!---
+[2017-10-10 15:36:23,281-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:23,609-logger.py]-INFO:---pass---
+[2017-10-10 15:36:23,609-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_update3: 测试站点运力修改接口：批量修改多条记录</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        通过</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: [2017-10-10 15:36:23,609-logger.py]-INFO:---3.datas传入为空：start!---
+[2017-10-10 15:36:23,656-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
+{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:23,749-logger.py]-INFO:---pass---
+[2017-10-10 15:36:23,749-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_common_sites.Common_sites</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',3)">详情</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_sites1: 测试站点列表接口：请求参数正确</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        通过</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: [2017-10-10 15:36:23,749-logger.py]-INFO:---1.请求参数正确：start!---
+(('110201295',), ('110202222',), ('110203518',), ('110203998',), ('110204372',), ('110204825',), ('110204832',), ('110205070',), ('110369453',), ('110369962',), ('110370188',), ('110370297',), ('110370533',), ('110370665',), ('12109835',), ('12200167',), ('12200178',), ('12200219',), ('12200440',), ('12200516',), ('12200552',), ('12200567',), ('122113801',), ('122113988',), ('122114381',), ('122114406',), ('122119168',), ('122127082',), ('12281557',), ('12281564',), ('12281565',), ('12281587',), ('12281592',), ('12281606',), ('12281612',), ('12281621',), ('12281630',), ('12281634',), ('12281635',), ('12281643',), ('12281663',), ('12281680',), ('12281727',), ('12281739',), ('12281766',), ('12281781',), ('12281787',), ('12281795',), ('12281796',), ('12281799',), ('12281871',), ('12281894',), ('12281919',), ('12281930',), ('12281959',), ('12281966',), ('12281968',), ('12281973',), ('12281977',), ('12281995',), ('12445859',), ('12445864',), ('12445867',), ('12445870',), ('12446047',), ('12446060',), ('12446109',), ('12446118',), ('12446123',), ('12446125',), ('12446145',), ('12446147',), ('12446154',), ('12446346',), ('12446381',), ('12446394',), ('12446436',), ('12446507',), ('12446557',), ('12446641',), ('12446650',), ('12446664',), ('12446955',), ('12446959',), ('12447016',), ('12447044',), ('12447097',), ('12447126',), ('12447191',), ('12447194',), ('12447203',), ('12447455',), ('12447462',), ('12447463',), ('12447507',), ('12447511',), ('12447609',), ('12447611',), ('12447617',), ('12447620',), ('12447641',), ('12447649',), ('12447690',), ('12447718',), ('12447729',), ('12447736',), ('12447741',), ('12447743',), ('12447787',), ('12447816',), ('12447824',), ('12447837',), ('12447853',), ('12447863',), ('12447869',), ('12447906',), ('12447924',), ('12447929',), ('12447964',), ('12447974',), ('12448154',), ('12448160',), ('12448164',), ('12448169',), ('12448188',), ('12448201',), ('12448240',), ('12448252',), ('12448263',), ('12448282',), ('12448286',), ('12448292',), ('12448297',), ('12448304',), ('12448310',), ('12556085',), ('132380093',), ('133237855',), ('147905823',), ('147907183',), ('147909765',), ('147911243',), ('147953681',), ('17840646',), ('17840716',), ('17840778',), ('17840846',), ('21617199',), ('26607319',), ('399346',), ('399348',), ('4214168',), ('50919368',), ('542906848',), ('57449823',), ('83079643',), ('85300521',), ('85300556',), ('85300576',), ('85300597',), ('87134667',), ('87134699',), ('87134714',), ('89476093',), ('89476113',), ('89476146',), ('89476192',), ('89476252',), ('89476919',), ('89476961',), ('89476997',), ('89477047',), ('89477186',), ('89641117',), ('89641133',), ('89641160',), ('89641173',), ('89641185',), ('89641212',))
+[2017-10-10 15:36:23,796-logger.py]-INFO:---获取响应结果：{'data': [{'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619148', 'cooperationType': None, 'orgType': None, 'orgName': '苏堤站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619149', 'cooperationType': None, 'orgType': None, 'orgName': '拱墅站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619151', 'cooperationType': None, 'orgType': None, 'orgName': '临平站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619152', 'cooperationType': None, 'orgType': None, 'orgName': '下沙站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619153', 'cooperationType': None, 'orgType': None, 'orgName': '金山站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619154', 'cooperationType': None, 'orgType': None, 'orgName': '机场站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619155', 'cooperationType': None, 'orgType': None, 'orgName': '富阳站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619156', 'cooperationType': None, 'orgType': None, 'orgName': '临安站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619157', 'cooperationType': None, 'orgType': None, 'orgName': '建德站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619158', 'cooperationType': None, 'orgType': None, 'orgName': '桐庐站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619159', 'cooperationType': None, 'orgType': None, 'orgName': '淳安站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619160', 'cooperationType': None, 'orgType': None, 'orgName': '上城站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619161', 'cooperationType': None, 'orgType': None, 'orgName': '下城站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619162', 'cooperationType': None, 'orgType': None, 'orgName': '滨江站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619163', 'cooperationType': None, 'orgType': None, 'orgName': '转塘站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619164', 'cooperationType': None, 'orgType': None, 'orgName': '闲林站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619165', 'cooperationType': None, 'orgType': None, 'orgName': '高沙站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619166', 'cooperationType': None, 'orgType': None, 'orgName': '塘河站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619167', 'cooperationType': None, 'orgType': None, 'orgName': '宁围站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619168', 'cooperationType': None, 'orgType': None, 'orgName': '古墩站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619169', 'cooperationType': None, 'orgType': None, 'orgName': '横塘站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '1619170', 'cooperationType': None, 'orgType': None, 'orgName': '西兴站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '18766268', 'cooperationType': None, 'orgType': None, 'orgName': '蒋村站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '18766418', 'cooperationType': None, 'orgType': None, 'orgName': '三里亭站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '70360745', 'cooperationType': None, 'orgType': None, 'orgName': '文新站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '71587111', 'cooperationType': None, 'orgType': None, 'orgName': '蒋村附属站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}, {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'orgCode': '90921074', 'cooperationType': None, 'orgType': None, 'orgName': '永乐村站', 'provinceName': None, 'cityName': None, 'countyName': None, 'address': None, 'leader': None, 'tel': None, 'parentCode': None, 'level': None}], 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:23,827-logger.py]-INFO:---pass---
+[2017-10-10 15:36:23,827-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_sites2: 测试站点列表接口：cityCompanyCode传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        通过</a>
+
+    <div id='div_pt2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.2: [2017-10-10 15:36:23,827-logger.py]-INFO:---2.cityCompanyCode传入为空：start!---
+[2017-10-10 15:36:23,859-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:23,874-logger.py]-INFO:---pass---
+[2017-10-10 15:36:23,874-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_sites3: 测试站点列表接口：cityCompanyCode传入不存在的市公司编码</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.3')" >
+        通过</a>
+
+    <div id='div_pt2.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.3: [2017-10-10 15:36:23,874-logger.py]-INFO:---3.cityCompanyCode传入不存在的市公司编码：start!---
+[2017-10-10 15:36:23,905-logger.py]-INFO:---获取响应结果：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:23,921-logger.py]-INFO:---pass---
+[2017-10-10 15:36:23,921-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>test_maintain_export.Maintain_export</td>
+    <td>6</td>
+    <td>5</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c3',6)">详情</a></td>
+</tr>
+
+<tr id='ft3.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_export1: 测试站点运力列表导出接口：请求参数正确</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        错误</a>
+
+    <div id='div_ft3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.1: [2017-10-10 15:36:23,921-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-10-10 15:36:23,952-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 10 Oct 2017 07:29:19 GMT'}
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\zhandian_jiekou\case\test_maintain_export.py", line 62, in test_export1
+    self.export(beginTime,endTime,siteId)
+  File "C:\Users\Administrator\PycharmProjects\zhandian_jiekou\case\test_maintain_export.py", line 37, in export
+    self.assertIn('.xls',result_head['Content-Disposition'])
+  File "D:\Python36\lib\site-packages\requests\structures.py", line 54, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'content-disposition'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_export2: 测试站点运力列表导出接口：beginTime大于endTime</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.2')" >
+        通过</a>
+
+    <div id='div_pt3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.2: [2017-10-10 15:36:23,968-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-10-10 15:36:23,983-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 10 Oct 2017 07:29:19 GMT'}
+[2017-10-10 15:36:23,999-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '未查询到数据', 'code': '0026'}
+[2017-10-10 15:36:23,999-logger.py]-INFO:---pass---
+[2017-10-10 15:36:23,999-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_export3: 测试站点运力列表导出接口：beginTime传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.3')" >
+        通过</a>
+
+    <div id='div_pt3.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.3: [2017-10-10 15:36:23,999-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-10-10 15:36:24,015-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 10 Oct 2017 07:29:19 GMT'}
+[2017-10-10 15:36:24,030-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,030-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,030-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_export4: 测试站点运力列表导出接口：endTime传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.4')" >
+        通过</a>
+
+    <div id='div_pt3.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.4: [2017-10-10 15:36:24,030-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-10-10 15:36:24,046-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 10 Oct 2017 07:29:19 GMT'}
+[2017-10-10 15:36:24,061-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,061-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,061-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_export5: 测试站点运力列表导出接口：siteId传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.5')" >
+        通过</a>
+
+    <div id='div_pt3.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.5: [2017-10-10 15:36:24,061-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-10-10 15:36:24,061-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 10 Oct 2017 07:29:20 GMT'}
+[2017-10-10 15:36:24,077-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,077-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,077-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_export6: 测试站点运力列表导出接口：beginTime,endTime和siteId传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.6')" >
+        通过</a>
+
+    <div id='div_pt3.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.6: [2017-10-10 15:36:24,077-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-10-10 15:36:24,093-logger.py]-INFO:---站点运力列表导出接口响应头：{'Server': 'Apache-Coyote/1.1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Language': 'en-US', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 10 Oct 2017 07:29:20 GMT'}
+[2017-10-10 15:36:24,093-logger.py]-INFO:---站点运力列表导出接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,093-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,093-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_maintain_list.Maintain_list</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',6)">详情</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_list1: 测试站点运力列表接口：请求参数正确</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        通过</a>
+
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: [2017-10-10 15:36:24,093-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-10-10 15:36:24,124-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:24,124-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,124-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_list2: 测试站点运力列表接口：beginTime大于endTime</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.2')" >
+        通过</a>
+
+    <div id='div_pt4.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.2: [2017-10-10 15:36:24,124-logger.py]-INFO:---2.beginTime大于endTime：start!---
+[2017-10-10 15:36:24,155-logger.py]-INFO:---站点运力列表接口响应：{'data': [], 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:24,155-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,155-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_list3: 测试站点运力列表接口：beginTime传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.3')" >
+        通过</a>
+
+    <div id='div_pt4.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.3: [2017-10-10 15:36:24,155-logger.py]-INFO:---3.beginTime传入为空：start!---
+[2017-10-10 15:36:24,373-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,389-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,389-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_list4: 测试站点运力列表接口：endTime传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.4')" >
+        通过</a>
+
+    <div id='div_pt4.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.4: [2017-10-10 15:36:24,389-logger.py]-INFO:---4.endTime传入为空：start!---
+[2017-10-10 15:36:24,405-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,420-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,420-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_list5: 测试站点运力列表接口：siteId传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.5')" >
+        通过</a>
+
+    <div id='div_pt4.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.5: [2017-10-10 15:36:24,420-logger.py]-INFO:---5.siteId传入为空：start!---
+[2017-10-10 15:36:24,436-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,436-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,436-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_list6: 测试站点运力列表接口：beginTime,endTime和siteId传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.6')" >
+        通过</a>
+
+    <div id='div_pt4.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.6: [2017-10-10 15:36:24,451-logger.py]-INFO:---6.beginTime,endTime和siteId传入为空：start!---
+[2017-10-10 15:36:24,451-logger.py]-INFO:---站点运力列表接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:24,467-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,467-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_maintain_siteInfo.Maintain_siteinfo</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',3)">详情</a></td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_siteinfo1: 测试站长站点信息接口：请求参数正确</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        通过</a>
+
+    <div id='div_pt5.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.1: [2017-10-10 15:36:24,467-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-10-10 15:36:24,514-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:24,904-logger.py]-INFO:---pass---
+[2017-10-10 15:36:24,904-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt5.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_siteinfo2: 测试站长站点信息接口：登录用户code（工号）不存在</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.2')" >
+        通过</a>
+
+    <div id='div_pt5.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.2: [2017-10-10 15:36:24,904-logger.py]-INFO:---2.userCode传入不存在：start!---
+[2017-10-10 15:36:24,951-logger.py]-INFO:---站长站点信息接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:25,372-logger.py]-INFO:---pass---
+[2017-10-10 15:36:25,372-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt5.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_siteinfo3: 测试站长站点信息接口：userCode传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.3')" >
+        通过</a>
+
+    <div id='div_pt5.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.3: [2017-10-10 15:36:25,372-logger.py]-INFO:---3.userCode传入为空：start!---
+[2017-10-10 15:36:25,387-logger.py]-INFO:---站长站点信息接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:25,777-logger.py]-INFO:---pass---
+[2017-10-10 15:36:25,777-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_maintain_sitecapacityinfo.Maintain_siteCapacityInfo</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c6',3)">详情</a></td>
+</tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_siteinfo1: 测试获取站点运力数据接口：请求参数正确</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        通过</a>
+
+    <div id='div_pt6.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.1: [2017-10-10 15:36:25,777-logger.py]-INFO:---1.请求参数正确：start!---
+[2017-10-10 15:36:25,809-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {'id': None, 'state': None, 'createTime': None, 'updateTime': None, 'createUid': None, 'updateUid': None, 'siteId': '336908', 'siteName': '奉贤1站', 'siteDetailId': 10, 'siteDate': '2017-09-29', 'orderEfficiencyNum': 357, 'orderTotalNum': 357, 'orderCommonNum': 357, 'dxOrderNumOriginal': 0, 'dxOrderNumAdjust': 0, 'batchOrderNum': 0, 'tempOrderNum': 0, 'tempDeliveryNum': 0, 'workerNum': 11, 'siteEfficiency': 32.45, 'status': 0, 'startTime': None, 'endTime': None, 'statusStr': None, 'provinceId': None, 'cityId': None, 'keyWords': None, 'beginTime': None}, 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:25,809-logger.py]-INFO:---pass---
+[2017-10-10 15:36:25,824-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt6.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_siteinfo2: 测试获取站点运力数据接口：siteDetailId不存在</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.2')" >
+        通过</a>
+
+    <div id='div_pt6.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.2: [2017-10-10 15:36:25,824-logger.py]-INFO:---2.siteDetailId传入不存在：start!---
+[2017-10-10 15:36:25,840-logger.py]-INFO:---获取站点运力数据接口响应：{'data': None, 'msg': '接口正常', 'code': '0000'}
+[2017-10-10 15:36:25,840-logger.py]-INFO:---pass---
+[2017-10-10 15:36:25,840-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt6.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_siteinfo3: 测试获取站点运力数据接口：siteDetailId传入为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.3')" >
+        通过</a>
+
+    <div id='div_pt6.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.3: [2017-10-10 15:36:25,840-logger.py]-INFO:---3.siteDetailId传入为空：start!---
+[2017-10-10 15:36:25,855-logger.py]-INFO:---获取站点运力数据接口响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}
+[2017-10-10 15:36:25,855-logger.py]-INFO:---pass---
+[2017-10-10 15:36:25,855-logger.py]-INFO:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>24</td>
+    <td>23</td>
+    <td>0</td>
+    <td>1</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>
