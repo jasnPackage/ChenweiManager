@@ -343,8 +343,65 @@
 #         print(i)
 
 
-list = ['a','b','c']
-list.insert(0,'1')
-print(list)
+# list = ['a','b','c']
+# list.insert(0,'1')
+# print(list)
+
+
+# import ast,json,re
+#
+# str_lists = '[{"status":"300"},{"message":"用户名或密码错误"}]'
+# list_lists = ast.literal_eval(str_lists)   # string转换成list
+#
+# result = '{"message":"用户名或密码错误","status":"300"}'
+#
+#
+# for list_list in list_lists:
+#     a = json.dumps(list_list,separators=(',',':'),ensure_ascii=False).strip()
+#     # 通过正则去除{}中间的值
+#     new_a = (re.findall('{(.*)}',a))[0]
+#     print("new_a的值:%s"%new_a)
+#     if new_a in result:
+#         print("成功")
+#     else:
+#         print("失败")
+
+
+# import datetime,time
+#
+# start_time = datetime.datetime.now()
+# print(start_time.strftime('%Y-%m-%d %H:%M:%S'))
+
+# pa = 0
+# fa = 0
+# checkPoint_pass = 0
+# checkPoint_fail = 0
+# ac = [3,4]
+# string_a = '123'
+# for a in ac:
+#     if str(a) in string_a:
+#         checkPoint_pass += 1
+#     else:
+#         checkPoint_fail += 1
+#
+#
+# if checkPoint_pass == len(ac):
+#     print("pass")
+#     pa = pa + 1
+# else:
+#     print("fail")
+#     fa = fa + 1
+#
+# print(pa)
+# print(fa)
+
+
+list = ['password', 'userId']
+new_res = ['${' + x + '}' for x in list]
+print(type(new_res))
+
+
+
+
 
 

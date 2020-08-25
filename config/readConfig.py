@@ -38,6 +38,11 @@ conf_1 = configparser.ConfigParser()
 conf_1.read(configPath_1,encoding='utf-8')
 
 runmode = conf_1.get("runconfig","runmode")
+runCase_level = conf_1.get("runconfig","runCase_level")
+
+loginName  = conf_1.get("publicdata","loginName")
+password  = conf_1.get("publicdata","password")
+
 
 pro_name = conf_1.get("testreport","pro_name")
 pro_version = conf_1.get("testreport","pro_version")
@@ -49,6 +54,9 @@ auditor = conf_1.get("testreport","auditor")
 pass_case = conf_1.get("testreport","pass_case")
 fail_case = conf_1.get("testreport","fail_case")
 success_rate = conf_1.get("testreport","success_rate")
+
+
+
 
 
 

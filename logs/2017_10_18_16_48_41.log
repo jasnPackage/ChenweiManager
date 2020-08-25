@@ -1,6 +1,0 @@
-[2017-10-18 16:48:42,028-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
-[2017-10-18 16:48:42,101-logger.py]-INFO:编号：1，接口名称：站点运力列表，测试点：请求参数正确，响应：{'data': [{'id': null, 'state': null, 'createTime': null, 'updateTime': null, 'createUid': null, 'updateUid': null, 'siteId': '107555619', 'siteName': '天通苑站', 'siteDetailId': 8099, 'siteDate': '2017-09-18', 'orderEfficiencyNum': 497, 'orderTotalNum': 497, 'orderCommonNum': 497, 'dxOrderNumOriginal': 0, 'dxOrderNumAdjust': 0, 'batchOrderNum': 0, 'tempOrderNum': 0, 'tempDeliveryNum': 0, 'workerNum': 10, 'siteEfficiency': 49.7, 'status': 2, 'startTime': null, 'endTime': null, 'statusStr': null, 'provinceId': null, 'cityId': null, 'keyWords': null, 'beginTime': null}], 'msg': '接口正常', 'code': '0000'}
-[2017-10-18 16:48:42,103-logger.py]-INFO:false
-[2017-10-18 16:48:42,105-logger.py]-INFO:--------
-[2017-10-18 16:48:42,160-logger.py]-INFO:调用登录方法，获取结果：{"data":"登录成功","msg":"接口正常","code":"0000"}
-[2017-10-18 16:48:42,188-logger.py]-INFO:编号：2，接口名称：站点运力列表，测试点：beginTime传入为空，响应：{'data': {}, 'msg': '参数不能为空', 'code': '0025'}

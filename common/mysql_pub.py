@@ -3,11 +3,11 @@ import pymysql
 # import os
 # os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 
-mysql_info = {"host": '192.168.22.10',
+mysql_info = {"host": '192.168.1.96',
               "port": 3306,
               "user": 'root',
               "passwd": '123456',
-              "db": 'capacity',
+              "db": 'erp',
               "charset": 'utf8'}
 
 class MysqlUtil():

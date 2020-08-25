@@ -61,19 +61,48 @@ def api_data():
         inf_address = table.row_values(1)[1] #返回接口地址
         inf_mode = table.row_values(1)[2] #返回请求方式
 
-        '''
-        获取excel文件中测试用例信息
-        '''
-        sheet = book.sheet_by_index(1) #通过索引，获取相应的列表，这里表示获取excel的第二个列表
-        nrows = sheet.nrows #获取所有行数
-        ncols = sheet.ncols #获取所有列数
-        filed = sheet.row_values(0)
-        # print(len(filed))
-        # print(nrows)
+        # '''
+        # 获取excel文件中测试用例信息
+        # '''
+        # sheet = book.sheet_by_index(1) #通过索引，获取相应的列表，这里表示获取excel的第二个列表
+        # nrows = sheet.nrows #获取所有行数
+        # ncols = sheet.ncols #获取所有列数
+        # filed = sheet.row_values(0)
+        # # print(len(filed))
+        # # print(nrows)
+        #
+        # for i in range(1,nrows):
+        #     d1 = {}
+        #     for j in range(0,len(filed)-4):
+        #         ctype = sheet.cell(i, j).ctype  # 表格的数据类型
+        #         cell = sheet.cell_value(i, j)
+        #         d = {}
+        #         if ctype == 2 and cell % 1 == 0:  # 如果是整形
+        #             cell = int(cell)
+        #         elif ctype == 3:
+        #             # 转成datetime对象
+        #             date = datetime(*xldate_as_tuple(cell, 0))
+        #             cell = date.strftime('%Y/%m/%d')
+        #         elif ctype == 4:
+        #             cell = True if cell == 1 else False
+        #         # print(cell)
+        #         d.update({filed[j]:cell})
+        #         # print(d)
+        #         d1.update(d)
+        #     # print(d1)
 
-        for i in range(1,nrows):
+        '''
+        获取excel文件中测试用例信息，将A-K列转换成字典存储
+        '''
+        sheet = book.sheet_by_index(1)  # 通过索引，获取相应的列表，这里表示获取excel的第二个列表
+        nrows = sheet.nrows  # 获取所有行数
+        ncols = sheet.ncols  # 获取所有列数
+        filed = sheet.row_values(0)
+
+
+        for i in range(1, nrows):
             d1 = {}
-            for j in range(0,len(filed)-4):
+            for j in range(0, len(filed) - 3):
                 ctype = sheet.cell(i, j).ctype  # 表格的数据类型
                 cell = sheet.cell_value(i, j)
                 d = {}
@@ -86,10 +115,16 @@ def api_data():
                 elif ctype == 4:
                     cell = True if cell == 1 else False
                 # print(cell)
-                d.update({filed[j]:cell})
+                d.update({filed[j]: cell})
                 # print(d)
                 d1.update(d)
             # print(d1)
+
+
+
+
+
+
 
             '''
             获取excel文件中测试用例预期结果和描述
